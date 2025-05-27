@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pictures.html">Pictures</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>My Pictures</h1>
+        <div class="tab-buttons">
+            <button class="tab-button active" data-tab="city1">City 1</button>
+            <button class="tab-button" data-tab="city2">City 2</button>
+        </div>
+
+        <div id="city1" class="tab-content active">
+            <h2>City 1 Pictures</h2>
+            <p>Some descriptive text about City 1 pictures.</p>
+            <img src="images/placeholder1.jpg" alt="Placeholder image 1">
+        </div>
+
+        <div id="city2" class="tab-content">
+            <h2>City 2 Pictures</h2>
+            <p>Some descriptive text about City 2 pictures.</p>
+            <img src="images/placeholder2.jpg" alt="Placeholder image 2">
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 My Personal Website</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

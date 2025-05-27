@@ -85,4 +85,5 @@ footer {
     height: auto;
     display: block; /* To allow margin auto to center if needed, and prevent extra space below */
     margin-top: 10px; /* Add some space above the image */
+    margin-bottom: 10px; /* Add for spacing between stacked images */
 }
